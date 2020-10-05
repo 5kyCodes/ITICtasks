@@ -1,0 +1,15 @@
+How to create a virtual environment for Windows
+
+1. Install virtual env first by typing the ff on your command prompt:
+py -m pip install --user virtualenv
+
+2. Go to your project's directory and run venv.
+py -m venv env
+
+3. Activate your newly created virtual environment using this code:
+.\env\Scripts\activate
+
+4. You can leave the virtual environment by typing 'deactivate' then press enter.
+
+for a more detailed explanation you can visit:
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
